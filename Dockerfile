@@ -1,26 +1,18 @@
-# Base image with Node.js
-FROM node:18-alpine
-
-# Set working directory
+FROM node:20-alpine AS builder
 WORKDIR /app
 
-# Copy package.json and package-lock.json
 COPY package*.json ./
+RUN npm ci
 
-# Install dependencies
-RUN npm install
-
-# Copy the rest of the application source code
 COPY . .
-
-# Build TypeScript code
 RUN npm run build
 
-# Create logs directory with proper permissions
-RUN mkdir -p /app/logs && chmod 777 /app/logs
+FROM node:20-alpine AS runner
+WORKDIR /app
 
-# Expose application port (change if needed)
-EXPOSE 4000
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/package*.json ./
+RUN npm ci --omit=dev
 
-# Start the app
-CMD ["npm", "start"]
+EXPOSE 3000
+CMD ["node", "dist/index.js"]
