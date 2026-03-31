@@ -6,3 +6,5 @@
 " automation merge"
 "we are testing automation merge"
 "testing"
+"lovely automation"
+"new testing for automerge"
