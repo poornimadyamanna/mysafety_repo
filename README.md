@@ -9,4 +9,3 @@
 "lovely automation"
 "new testing for automerge"
 "adding new line to readme file"
-testing
