@@ -3,5 +3,4 @@
 - `sudo apt update`
 - `sudo apt install certbot`
 - `sudo certbot certonly --standalone -d mysafety24x7.in -d www.mysafety24x7.in`
-"indo-Sakura"
-"new line added by poornima"
+"we are checking auto merge automation"
