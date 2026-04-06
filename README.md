@@ -6,3 +6,4 @@
 "we are checking auto merge automation"
 "indo-software-pvt"
 "love indo"
+"hate indo"
