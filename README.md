@@ -6,3 +6,6 @@
 "we are checking auto merge automation"
 "indo-software-pvt"
 " Good Friday "
+"love indo"
+"LTD PVT LLP"
+" garlic"
