@@ -7,6 +7,3 @@
 "indo-software-pvt"
 "love indo"
 "LTD PVT LLP"
-" Apple "
-" watermelon is the good for health "
-" Monday-Friday "
