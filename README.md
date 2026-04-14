@@ -5,9 +5,13 @@
 - `sudo certbot certonly --standalone -d mysafety24x7.in -d www.mysafety24x7.in`
 "we are checking auto merge automation"
 "indo-software-pvt"
-" Good Friday "
 "love indo"
 "LTD PVT LLP"
-" garlic"
-" Apple "
-" Mango is the King "
+"this line is adding to check for dev1 jhgjhgjhgjhg""love indo"
+"LTD PVT LLP"
+"this line is adding to check for dev1 jhgjhgjhgjhg"
+
+" Good Friday "
+" GOOD Evening " 
+
+"mohan"
