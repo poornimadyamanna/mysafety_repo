@@ -13,7 +13,6 @@
 
 
 "befa8yudbhfub8igdheguja"
-"poornima is junior devops engineer"
 "nkjfje"
 
 
